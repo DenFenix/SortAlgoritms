@@ -42,6 +42,14 @@ namespace Sort
             bs.Sort(mass);
             bs.Show(mass);
 
+            mass = new int[] { 9, 6, 7, 8, 4, 10, 5 };
+
+            Console.WriteLine();
+            CountSort cs = new CountSort();
+            cs.Show(mass);
+            cs.Sort(mass);
+            cs.Show(mass);
+
             //for (int i = mass.Length-2;i>=0;i--)
             //{
             //    int key = mass[i];
