@@ -9,7 +9,7 @@ namespace Sort
     //сраниваем nый элемент коллекции(ключ) с каждым предыдущим предыдщими,
     // при этом пока ключ меньше чем сраниваемое число, число сдвигается на ячейку в лево
     //как только число оказывается меньше нашего ключа, то в след ячейку за ним записывается ключ
-    class InsertionSort : AlgoritmSort
+    public class InsertionSort : AlgoritmSort
     {
         public override void Sort(int[] mass)
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 //реализовать шаблон стратегия
 namespace Sort
 {
-    abstract class AlgoritmSort
+    public abstract class AlgoritmSort
     {
         abstract public void Sort(int[]  mass);
 

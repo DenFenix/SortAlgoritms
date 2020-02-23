@@ -27,11 +27,16 @@ namespace Sort
 
             Console.WriteLine();
 
-             mass = new int[]{ 9, 6, 7, 8, 4, 10, 5 };
+             mass = new int[]{ 9, 6, 7, 8, 4, 10, 5, 1, 4,6,11,15,18 };
 
-            MergeSort ms = new MergeSort();
-            ms.Sort(mass,0,3);
+            //MergeSort ms = new MergeSort();
+            //ms.Sort(mass,0,3);
+            //ms.Show(mass);
+
+            MergerInsertionSort ms = new MergerInsertionSort();
+            ms.Sort(mass);
             ms.Show(mass);
+
 
             //for (int i = mass.Length-2;i>=0;i--)
             //{
