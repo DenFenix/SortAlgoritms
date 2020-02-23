@@ -33,6 +33,15 @@ namespace Sort
             ms.Sort(mass,0,3);
             ms.Show(mass);
 
+            Console.WriteLine();
+
+            mass = new int[] { 9, 6, 7, 8, 4, 10, 5 };
+           
+            BubleSort bs = new BubleSort();
+            bs.Show(mass);
+            bs.Sort(mass);
+            bs.Show(mass);
+
             //for (int i = mass.Length-2;i>=0;i--)
             //{
             //    int key = mass[i];

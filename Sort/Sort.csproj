@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlgoritmSort.cs" />
+    <Compile Include="BubleSort.cs" />
     <Compile Include="InsertionSort.cs" />
     <Compile Include="MergeSort.cs" />
     <Compile Include="Program.cs" />
