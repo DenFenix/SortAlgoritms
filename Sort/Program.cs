@@ -64,6 +64,12 @@ namespace Sort
 
             //    iSort.Show(mass);
             //}
+
+
+            mass = new int[] { 9, -5, 7, -1, 4, -6, 5, 11, -20 };
+            FindMaxSummArray fms = new FindMaxSummArray();
+            var result = fms.FindmaximumSubarray(mass, 0, 8);
+
             Console.ReadKey();
         }
     }
